@@ -1,0 +1,10 @@
+[package]
+name = "custom_tool"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[[bin]]
+name = "custom_tool"
+path = "main.rs"
